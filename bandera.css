@@ -1,0 +1,29 @@
+ *{ 
+     background-color: blue; 
+ } 
+
+.horizontal {
+   box-sizing: border-box; 
+   border: yellow;
+   background-color:yellow;
+   border: yellow;
+   align-items: stretch;
+   flex-direction: row;
+   width: 100px;
+   height: 500px;
+}
+
+.body {
+    display: flex;
+}
+
+.vertical {
+    box-sizing: border-box; 
+    border: yellow;
+    background-color: yellow;
+    border: yellow;
+    align-items: stretch;
+    flex-direction: column;
+    height: 100px;
+    width: 500px;
+}
