@@ -1,0 +1,81 @@
+div {
+    width: 300 px;
+}
+body {
+  
+    border-radius: 5px;
+}
+
+.contenedor_producto {
+   display: flex;
+   align-items: flex-start center;
+   flex-direction: row;
+  
+
+}
+.contenedor_imagen {
+
+height: 100px;
+width: 100px;
+}
+img {
+    height: 100px;
+    width: 100px;
+}
+.informacion_contenedor {
+    display: flex;
+
+   flex-direction: column;
+
+}
+.informacion_dos {
+    display: flex;
+  
+    flex-direction: column;
+}
+.informacion_dos_bloques {
+    display: flex;
+   align-items: flex-start center;
+   flex-direction: row;
+   justify-content: space-evenly;
+}
+
+button {
+
+    background-color: blue;
+    color: cornsilk;
+    border-radius: 25%;
+    align-items:  center;
+    justify-content: center;
+}
+.Producto {
+    color: darkgray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.Vendido_X_mle {
+    color: darkgrey;
+    
+}
+
+.precio_tachado {
+    color: darkgrey;
+    text-decoration: line-through;
+}
+
+.precio_actual {
+    color: darkgrey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.verde {
+    color: green;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.verde_full {
+    color: green;
+ text-decoration: solid;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
