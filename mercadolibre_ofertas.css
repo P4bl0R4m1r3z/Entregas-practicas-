@@ -15,12 +15,12 @@ body {
 }
 .contenedor_imagen {
 
-height: 100px;
-width: 100px;
+height: 200px;
+width: 200px;
 }
 img {
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
 }
 .informacion_contenedor {
     display: flex;
@@ -37,7 +37,7 @@ img {
     display: flex;
    align-items: flex-start center;
    flex-direction: row;
-   justify-content: space-evenly;
+   
 }
 
 button {
@@ -79,3 +79,6 @@ button {
  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+span {
+    margin: 3px;
+}
